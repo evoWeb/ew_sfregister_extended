@@ -25,13 +25,14 @@ $EM_CONF[$_EXTKEY] = array(
 	'internal' => '',
 	'uploadfolder' => 0,
 	'createDirs' => '',
-	'modify_tables' => '',
+	'modify_tables' => 'fe_users',
 	'clearCacheOnLoad' => 1,
 	'lockType' => '',
 	'author_company' => '',
 	'version' => '0.0.1',
 	'constraints' => array(
 		'depends' => array(
+			'extender' => '6.0.0'
 		),
 		'conflicts' => array(
 		),

@@ -1,5 +1,5 @@
 ## TYPO3 v4
-# Ignore serveral upload and file directories.
+# Ignore several upload and file directories.
 .idea
 /fileadmin/user_upload/
 /fileadmin/_temp_/

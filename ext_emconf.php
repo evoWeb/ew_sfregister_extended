@@ -1,7 +1,7 @@
 <?php
 
 $EM_CONF[$_EXTKEY] = [
-    'title' => 'Extending feuser model',
+    'title' => 'Extending Frontend User Registration',
     'description' => '',
     'category' => 'module',
     'author' => 'Sebastian Fischer',

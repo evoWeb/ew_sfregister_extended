@@ -1,5 +1,5 @@
 {
-	"name": "evoweb/ew-register-extended",
+	"name": "evoweb/ew-sfregister-extended",
 	"type": "typo3-cms-extension",
 	"description": "Extending the Frontend User Registration",
 	"version": "0.0.1",
@@ -13,7 +13,7 @@
 	},
 	"extra": {
 		"typo3/cms": {
-			"extension-key": "ew_register_extended"
+			"extension-key": "ew_sfregister_extended"
 		}
 	}
 }

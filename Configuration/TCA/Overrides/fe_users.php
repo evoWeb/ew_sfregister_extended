@@ -51,8 +51,9 @@ $temporaryColumns['custom9']['label'] =
     'LLL:EXT:ew_sfregister_extended/Resources/Private/Language/locallang_be.xml:custom9';
 
 
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addTCAcolumns('fe_users', $temporaryColumns);
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addToAllTCAtypes(
     'fe_users',
     '--div--;LLL:EXT:ew_sfregister_extended/Resources/Private/Language/locallang_be.xml:fe_users.div.customs,
-		custom0, custom1, custom2, custom3, custom4, custom5, custom6, custom7, custom8, custom9'
+    custom0, custom1, custom2, custom3, custom4, custom5, custom6, custom7, custom8, custom9'
 );

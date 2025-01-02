@@ -6,6 +6,9 @@
 	"license": [
 		"GPL-2.0-or-later"
 	],
+	"require": {
+		"evoweb/extender": "9.x-dev || 10.x-dev"
+	},
 	"autoload": {
 		"psr-4": {
 			"Evoweb\\EwRegisterExtended\\": "Classes"

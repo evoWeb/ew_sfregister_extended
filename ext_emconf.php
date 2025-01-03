@@ -1,22 +1,17 @@
 <?php
 
-$EM_CONF[$_EXTKEY] = [
+$EM_CONF['ew_sfregister_extended'] = [
     'title' => 'Extending Frontend User Registration',
     'description' => '',
     'category' => 'module',
     'author' => 'Sebastian Fischer',
     'author_email' => 'typo3@evoweb.de',
     'state' => 'beta',
-    'modify_tables' => 'fe_users',
-    'clearCacheOnLoad' => 1,
     'version' => '0.0.1',
     'constraints' => [
         'depends' => [
-            'extender' => '6.0.0',
-        ],
-        'conflicts' => [
-        ],
-        'suggests' => [
+            'extender' => '11.0.0',
+            'sf_register' => '13.0.0',
         ],
     ],
 ];

@@ -1,15 +1,14 @@
-ew_sfregister_extended
-======================
+# ew_sfregister_extended
 
 Extends the frontend user domain model of sf_register.
 
 ## Installation
 
 It's possible to install either via composer or by git clone.
-The later is adviced because you want to modify the extension.
+The second is adviced because you want to modify the extension.
 So by cloning it, it doesn't get reverted on composer updates.
 
-### Install with composer 
+### Install with composer
 
 `require evoweb/sf-register-extended`
 

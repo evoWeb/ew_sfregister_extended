@@ -1,270 +1,136 @@
 <?php
 
+declare(strict_types=1);
+
+/*
+ * This file is developed by evoWeb.
+ *
+ * It is free software; you can redistribute it and/or modify it under
+ * the terms of the GNU General Public License, either version 2
+ * of the License, or any later version.
+ *
+ * For the full copyright and license information, please read the
+ * LICENSE.txt file that was distributed with this source code.
+ */
+
 namespace Evoweb\EwRegisterExtended\Domain\Model;
 
-/***************************************************************
- *  Copyright notice
- *
- *  (c) 2014 Sebastian Fischer <typo3@marketing-factory.de>
- *  All rights reserved
- *
- *  This script is part of the TYPO3 project. The TYPO3 project is
- *  free software; you can redistribute it and/or modify
- *  it under the terms of the GNU General Public License as published by
- *  the Free Software Foundation; either version 2 of the License, or
- *  (at your option) any later version.
- *
- *  The GNU General Public License can be found at
- *  http://www.gnu.org/copyleft/gpl.html.
- *
- *  This script is distributed in the hope that it will be useful,
- *  but WITHOUT ANY WARRANTY; without even the implied warranty of
- *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- *  GNU General Public License for more details.
- *
- *  This copyright notice MUST APPEAR in all copies of the script!
- ***************************************************************/
+use Evoweb\SfRegister\Domain\Model\FrontendUser as BaseFrontendUser;
 
 /**
  * An extended frontend user with more attributes
  */
-class FrontendUser extends \TYPO3\CMS\Extbase\Domain\Model\FrontendUser
+class FrontendUser extends BaseFrontendUser
 {
-    /**
-     * @var string
-     */
-    protected $custom0 = '';
+    protected string $custom0 = '';
 
-    /**
-     * @var string
-     */
-    protected $custom1 = '';
+    protected string $custom1 = '';
 
-    /**
-     * @var string
-     */
-    protected $custom2 = '';
+    protected string $custom2 = '';
 
-    /**
-     * @var string
-     */
-    protected $custom3 = '';
+    protected string $custom3 = '';
 
-    /**
-     * @var string
-     */
-    protected $custom4 = '';
+    protected string $custom4 = '';
 
-    /**
-     * @var string
-     */
-    protected $custom5 = '';
+    protected string $custom5 = '';
 
-    /**
-     * @var string
-     */
-    protected $custom6 = '';
+    protected string $custom6 = '';
 
-    /**
-     * @var string
-     */
-    protected $custom7 = '';
+    protected string $custom7 = '';
 
-    /**
-     * @var string
-     */
-    protected $custom8 = '';
+    protected string $custom8 = '';
 
     /**
      * @var string
      */
     protected $custom9 = '';
 
-    /**
-     * Setter
-     *
-     * @param string $custom0
-     * @return void
-     */
-    public function setCustom0($custom0)
+    public function setCustom0(string $custom0): void
     {
         $this->custom0 = $custom0;
     }
 
-    /**
-     * Getter
-     *
-     * @return string
-     */
-    public function getCustom0()
+    public function getCustom0(): string
     {
         return $this->custom0;
     }
 
-    /**
-     * Setter
-     *
-     * @param string $custom1
-     * @return void
-     */
-    public function setCustom1($custom1)
+    public function setCustom1(string $custom1): void
     {
         $this->custom1 = $custom1;
     }
 
-    /**
-     * Getter
-     *
-     * @return string
-     */
-    public function getCustom1()
+    public function getCustom1(): string
     {
         return $this->custom1;
     }
 
-    /**
-     * Setter
-     *
-     * @param string $custom2
-     * @return void
-     */
-    public function setCustom2($custom2)
+    public function setCustom2(string $custom2): void
     {
         $this->custom2 = $custom2;
     }
 
-    /**
-     * Getter
-     *
-     * @return string
-     */
-    public function getCustom2()
+    public function getCustom2(): string
     {
         return $this->custom2;
     }
 
-    /**
-     * Setter
-     *
-     * @param string $custom3
-     * @return void
-     */
-    public function setCustom3($custom3)
+    public function setCustom3(string $custom3): void
     {
         $this->custom3 = $custom3;
     }
 
-    /**
-     * Getter
-     *
-     * @return string
-     */
-    public function getCustom3()
+    public function getCustom3(): string
     {
         return $this->custom3;
     }
 
-    /**
-     * Setter
-     *
-     * @param string $custom4
-     * @return void
-     */
-    public function setCustom4($custom4)
+    public function setCustom4(string $custom4): void
     {
         $this->custom4 = $custom4;
     }
 
-    /**
-     * Getter
-     *
-     * @return string
-     */
-    public function getCustom4()
+    public function getCustom4(): string
     {
         return $this->custom4;
     }
 
-    /**
-     * Setter
-     *
-     * @param string $custom5
-     * @return void
-     */
-    public function setCustom5($custom5)
+    public function setCustom5(string $custom5): void
     {
         $this->custom5 = $custom5;
     }
 
-    /**
-     * Getter
-     *
-     * @return string
-     */
-    public function getCustom5()
+    public function getCustom5(): string
     {
         return $this->custom5;
     }
 
-    /**
-     * Setter
-     *
-     * @param string $custom6
-     * @return void
-     */
-    public function setCustom6($custom6)
+    public function setCustom6(string $custom6): void
     {
         $this->custom6 = $custom6;
     }
 
-    /**
-     * Getter
-     *
-     * @return string
-     */
-    public function getCustom6()
+    public function getCustom6(): string
     {
         return $this->custom6;
     }
 
-    /**
-     * Setter
-     *
-     * @param string $custom7
-     * @return void
-     */
-    public function setCustom7($custom7)
+    public function setCustom7(string $custom7): void
     {
         $this->custom7 = $custom7;
     }
 
-    /**
-     * Getter
-     *
-     * @return string
-     */
-    public function getCustom7()
+    public function getCustom7(): string
     {
         return $this->custom7;
     }
 
-    /**
-     * Setter
-     *
-     * @param string $custom8
-     * @return void
-     */
-    public function setCustom8($custom8)
+    public function setCustom8(string $custom8): void
     {
         $this->custom8 = $custom8;
     }
 
-    /**
-     * Getter
-     *
-     * @return string
-     */
-    public function getCustom8()
+    public function getCustom8(): string
     {
         return $this->custom8;
     }

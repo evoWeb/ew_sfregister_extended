@@ -1,10 +1,15 @@
 <?php
-defined('TYPO3_MODE') || die();
 
-call_user_func(function () {
-    \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile(
+declare(strict_types=1);
+
+defined('TYPO3') or die();
+
+use TYPO3\CMS\Core\Utility\ExtensionManagementUtility;
+
+(static function () {
+    ExtensionManagementUtility::addStaticFile(
         'ew_sfregister_extended',
         'Configuration/TypoScript/',
         'Extending Feuser Register'
     );
-});
+})();

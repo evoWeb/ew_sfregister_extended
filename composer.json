@@ -2,10 +2,13 @@
 	"name": "evoweb/ew-sfregister-extended",
 	"type": "typo3-cms-extension",
 	"description": "Extending the Frontend User Registration",
-	"version": "0.0.1",
 	"license": [
 		"GPL-2.0-or-later"
 	],
+	"require": {
+		"evoweb/extender": "^11.0.0 || dev-develop",
+		"evoweb/sf-register": "^13.0.0 || dev-develop"
+	},
 	"autoload": {
 		"psr-4": {
 			"Evoweb\\EwRegisterExtended\\": "Classes"

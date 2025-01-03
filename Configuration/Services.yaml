@@ -1,0 +1,7 @@
+services:
+
+  Evoweb\EwRegisterExtended\Domain\Model\FrontendUser:
+    tags:
+      -
+        name: 'extender.extends'
+        class: Evoweb\SfRegister\Domain\Model\FrontendUser
